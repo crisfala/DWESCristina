@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: verdana;
+}
+
+body{
+    background-color:#F8F8F2;
+}
+
+div.contenedor {
+    width: 960px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    color:#6F3662;
+    border: solid;
+    border-width: thick;
+    border-color: #FF7182;
+
+}
+
+form{
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+h2{
+     color:#6F3662;
+    
+}
+
+div.persona1 {
+    float: left;
+    margin: auto;
+
+}
+div.persona2 {
+    float: left;
+     margin: auto;
+}
+div.persona3 {
+    float: right;
+     margin: auto;   
+}

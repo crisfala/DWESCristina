@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <script type="text/javascript">
+           var miC=new Array("Casa","Chalet",["habitacion","comedor","banyo",["completo","aseo"]],"piso");
+        
+        miC.forEach(recorre);
+        function recorre(item,index,arr){
+            if(Array.isArray(arr[index])){
+                for (var segind in arr[index]){
+                    if(Array.isArray(arr[index][segind])){
+                        for (var terind in arr[index][segind]){
+                            document.write(arr[index][segind][terind]+"<br>");
+                        }
+                    }else{
+                        document.write(arr[index][segind]+"<br>")
+                    }
+                }
+            }else{
+                document.write(arr[index]+"<br>");
+            }
+        } 
+            
+            
+            </script>
+    </body>
+</html>

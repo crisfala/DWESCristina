@@ -1,0 +1,11 @@
+USE DAW209_DBUsuarios;
+INSERT INTO DAW209_DBUsuarios.Usuarios (codUsuario, password) VALUES ('luci', SHA2('paso',256));
+INSERT INTO DAW209_DBUsuarios.Usuarios (codUsuario, password) VALUES ('pablo', SHA2('paso',256));
+INSERT INTO DAW209_DBUsuarios.Usuarios (codUsuario, password) VALUES ('juancarlos', SHA2('paso',256));
+INSERT INTO DAW209_DBUsuarios.Usuarios (codUsuario, password) VALUES ('rodrigo', SHA2('paso',256));
+INSERT INTO DAW209_DBUsuarios.Usuarios (codUsuario, password) VALUES ('sergio', SHA2('paso',256));
+INSERT INTO DAW209_DBUsuarios.Usuarios (codUsuario, password) VALUES ('juanjo', SHA2('paso',256));
+INSERT INTO DAW209_DBUsuarios.Usuarios (codUsuario, password) VALUES ('mario', SHA2('paso',256));
+INSERT INTO DAW209_DBUsuarios.Usuarios (codUsuario, password) VALUES ('alejandro', SHA2('paso',256));
+INSERT INTO DAW209_DBUsuarios.Usuarios (codUsuario, password) VALUES ('cristina', SHA2('paso',256));
+INSERT INTO DAW209_DBUsuarios.Usuarios (codUsuario, password) VALUES ('heraclio', SHA2('paso',256));

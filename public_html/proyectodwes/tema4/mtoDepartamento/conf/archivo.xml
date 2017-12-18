@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+autor:Cristina falagán
+ultima modificación:21/11/2017
+inicio:20//11/2017
+	 -->
+<departamentos>
+    <departamento>
+    <codigo>VEN</codigo>
+    <descripcion>Ventas</descripcion>
+    </departamento>
+    
+    <departamento>
+    <codigo>PED</codigo>
+    <descripcion>Pedidos</descripcion>
+    </departamento>
+    
+    <departamento>
+    <codigo>INF</codigo>
+    <descripcion>Informatica</descripcion>
+    </departamento>
+    
+    <departamento>
+    <codigo>CLI</codigo>
+    <descripcion>Clientes</descripcion>
+    </departamento>
+
+    <departamento>
+    <codigo>COM</codigo>
+    <descripcion>Comerciales</descripcion>
+    </departamento>
+
+    <departamento>
+    <codigo>MAR</codigo>
+    <descripcion>Marketing</descripcion>
+    </departamento>
+
+    <departamento>
+    <codigo>ADM</codigo>
+    <descripcion>Administracion</descripcion>
+    </departamento>
+
+    <departamento>
+    <codigo>TEC</codigo>
+    <descripcion>Tecnico</descripcion>
+    </departamento>
+
+    
+    
+</departamentos>
+

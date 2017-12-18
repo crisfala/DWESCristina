@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<departamentos>
+  <departamento>
+    <codigo>ADM</codigo>
+    <descripcion>Administracion</descripcion>
+  </departamento>
+  <departamento>
+    <codigo>CLI</codigo>
+    <descripcion>Clientes</descripcion>
+  </departamento>
+  <departamento>
+    <codigo>COM</codigo>
+    <descripcion>Comerciales</descripcion>
+  </departamento>
+  <departamento>
+    <codigo>CON</codigo>
+    <descripcion>Contabilidad</descripcion>
+  </departamento>
+  <departamento>
+    <codigo>MAR</codigo>
+    <descripcion>Marketing</descripcion>
+  </departamento>
+  <departamento>
+    <codigo>MER</codigo>
+    <descripcion>Mercado</descripcion>
+  </departamento>
+  <departamento>
+    <codigo>SEG</codigo>
+    <descripcion>Seguridad</descripcion>
+  </departamento>
+  <departamento>
+    <codigo>TEC</codigo>
+    <descripcion>Tecnico</descripcion>
+  </departamento>
+</departamentos>

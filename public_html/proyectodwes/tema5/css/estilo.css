@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: verdana;
+}
+body{
+    background-color:#F8F8F2;
+}
+div.contenedor{
+    text-align: center;
+    width: 960px;
+    border: solid 2px #FF7182;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    
+}
+label{
+    color:#6F3662;
+    font-family: fantasy;
+    font-size: 21;
+}
+a.repo{
+   
+     color:#FF7182;
+     margin-left: 50px;
+}
+h2{
+    color:#6F3662;
+    font-family: fantasy;
+    font-size: 21;
+}
+footer{
+    margin-top:550px;
+    padding: 20px;
+    color:#FF7182;
+     clear: both;
+}
+img{
+    float: left;
+    margin-left: 20px;
+}
+span{
+    color:#FF7182;
+    font-size: 20px;
+    margin-left: 20px;
+}

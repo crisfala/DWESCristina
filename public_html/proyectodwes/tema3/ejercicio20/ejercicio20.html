@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="formulario.css">
+    <title>formulario</title>
+</head>
+
+<body>
+    <h2>20.Construir un formulario para recoger un cuestionario realizado a una persona y enviarlo a una página
+    tratamiento.php para que muestre las preguntas y las respuestas recogidas.</h2>
+    <div class="contenedor">
+    <form name="formulario" action="trataminetoejercicio20.php" method="post">
+<label for="nombre">Nombre: </label>
+    <input type="text" name="nombre" id="nombre">
+<br/> <br/>
+
+<label for="apellido1">Primer Apellido: </label>
+    <input type="text" name="apellido1" id="apellido1">
+<br/> <br/>
+
+<label for="apellido2">Segundo Apellido: </label>
+    <input type="text" name="apellido2" id="apellido2">
+<br/> <br/>
+
+ <label for="movil">Movil: </label>
+    <input type="text" name="movil" id="movil">
+<br/> <br/>
+
+<label for="genero">Genero: </label>
+    <p>hombre<input type="radio" name="genero" checked="checked" value="hombre" /> </p>
+    <p>mujer<input type="radio" name="genero" value="mujer" /></p>
+    
+<label for="direccion">Dirección: </label>
+    <input type="text" name="direccion" id="direccion">
+<br/> <br/>
+    
+<label for="pais">Pais </label>
+    <select name="pais">
+        <option value="españa">España</option>
+        <option value="francia">Francia</option>
+    </select>
+<br/> <br/>
+<textarea name="informaciónAdicional" rows="10" cols="30" >
+    
+    
+
+</textarea>
+<br/> <br/>
+<input type="submit" value="Aceptar">
+
+ </form>
+</div>
+
+</body>
+</html>

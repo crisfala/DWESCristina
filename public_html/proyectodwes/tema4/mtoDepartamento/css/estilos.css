@@ -1,0 +1,97 @@
+/*
+	 autor:Cristina falagán
+	 ultima modificación:23/11/2017
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: verdana;
+}
+
+body{
+    background-color:#F8F8F2;
+    color: #FF7182;
+}
+
+
+h1{
+    color:#9F6164;
+    margin-bottom: 40px;
+}
+
+nav{
+    height: 50px;
+    text-align: center; 
+}
+
+section{
+    height:auto;
+    
+
+}
+
+img{
+    width: 25px;
+    height: 25px;
+    margin-left:87px;
+}
+
+label.input{
+    color: #FF7182;
+    margin:auto;
+}
+
+div.contenedor {
+
+    margin-left:20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.errores{
+    color: red;
+    font-size: 9px;
+}
+table {
+    margin:auto;
+    margin-top: 20px;
+    border:none;
+    border-collapse: collapse;
+    
+}
+
+tr td {
+    border-bottom: solid;
+    border-collapse: collapse;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 10px;
+    text-align: center;
+    border-bottom-color:#7D3749; 
+    
+}
+p{
+    font-size:20px;
+    font-family:Verdana;
+    padding: 10px;
+    color: #7D3749;
+    border: dotted;
+    border-color: #7D3749;
+    text-align: center;
+    margin-top: 10px;
+    margin-left:87px;
+}
+footer{
+    padding: 20px;
+    color:#FF7182;
+     clear: both;
+}
+form{
+    text-align: right;
+}
+a.repo{
+   
+     color:#FF7182;
+     margin-left: 50px;
+}
+/* #7D3749, #E26C9D, #F2C7C7, #EDDDDD, #C8D7E7 */
